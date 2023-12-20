@@ -1,0 +1,372 @@
+{
+    "statusCode": 1000,
+    "feasibilityStatus": true,
+    "message": "",
+    "data": {
+      "result": [
+        {
+          "_id": "6573fe2d59f9e4bcccffd3d3",
+          "locationId": 1702100407226,
+          "name": "test location 1",
+          "parkingType": "PARKING GARAGE",
+          "email": "test1@chargemod.com",
+          "phone": 9943573543,
+          "image": "https://uat-kotta1.s3.ap-south-1.amazonaws.com/1702100487154-1698861563824-1695055069128-image.jpeg",
+          "geoLocation": {
+            "type": "Point",
+            "coordinates": [
+              74.4587435,
+              6.34773457
+            ]
+          },
+          "street1": "Sreekaryam",
+          "street2": "Venchavode",
+          "city": "Thambanur",
+          "state": "Kerala",
+          "country": "India",
+          "zip": "765234",
+          "status": "Active",
+          "isListed": true,
+          "connectionDetails": {
+            "totalSanctionLoad": "34",
+            "accountNumber": "47362543",
+            "isGreenEnergy": true,
+            "energySource": {
+              "source": "SOLAR",
+              "percentage": 57
+            },
+            "supplierType": "something1",
+            "_id": "6573fe2d59f9e4bcccffd3d1"
+          },
+          "openingHours": {
+            "isTwentyFourHours": true,
+            "regularHours": [],
+            "_id": "6573fe2d59f9e4bcccffd3d2"
+          },
+          "organizationId": "64941897fdb322dbf94ad2b8",
+          "projectId": "6494141957d29409895704d2",
+          "chargerDetails": [
+            {
+              "_id": "65740383b8a79853d3dfe2bb",
+              "identity": "testcharger3",
+              "locationId": 1702100407226,
+              "chargerName": "test charger 3",
+              "chargePointOem": "6574006059f9e4bcccffd4d2",
+              "chargePointDevice": "657401cb59f9e4bcccffd4e9",
+              "tarif": "64b63331f222b41d3f20816d",
+              "chargePointConnectionProtocol": "OCPP",
+              "evse": [
+                "1702101844443"
+              ],
+              "floorLevel": "0",
+              "delStatus": false,
+              "organizationId": "64941897fdb322dbf94ad2b8",
+              "projectId": "6494141957d29409895704d2",
+              "stationType": "DC",
+              "chargerType": "PUBLIC",
+              "chargerId": "testcharger3",
+              "qrCode": "testcharger3",
+              "maintenanceStatus": "no",
+              "fields": [],
+              "createdAt": "2023-12-09T06:04:51.714Z",
+              "updatedAt": "2023-12-09T06:04:51.714Z",
+              "__v": 0,
+              "evsesDetails": [
+                {
+                  "_id": "65740367b8a79853d3dfe2ae",
+                  "physicalReference": "Gun 1",
+                  "uid": "1702101844443",
+                  "maxOutputPower": 30,
+                  "capability": [
+                    "option1"
+                  ],
+                  "status": "Active",
+                  "connectorId": 1,
+                  "connector": [
+                    "65426e0a82c45c0f1c49288c"
+                  ],
+                  "organizationId": "64941897fdb322dbf94ad2b8",
+                  "projectId": "6494141957d29409895704d2",
+                  "createdAt": "2023-12-09T06:04:23.926Z",
+                  "updatedAt": "2023-12-09T06:04:23.926Z",
+                  "__v": 0,
+                  "connectorStatus": "Not Available",
+                  "errorCode": "Not Available",
+                  "Availability": "Not Available",
+                  "connectorDetails": [
+                    {
+                      "_id": "65426e0a82c45c0f1c49288c",
+                      "name": "CCS2",
+                      "standard": {
+                        "standardName": "DOMESTIC_A"
+                      },
+                      "format": {
+                        "formatName": "CABLE"
+                      },
+                      "powerType": {
+                        "powerType": "DC"
+                      },
+                      "cmsId": "4",
+                      "maxVoltage": 50,
+                      "maxAmperage": 90,
+                      "maxElectricPower": 80,
+                      "termsConditionUrl": "1",
+                      "connectorImage": "https://uat-kotta1.s3.ap-south-1.amazonaws.com/1698852362431-3ff79147-62af-49f9-9cae-485de4b014e1.png",
+                      "organizationId": "64b793030dd6bb39c1c3e270",
+                      "projectId": "6494141957d29409895704d2"
+                    }
+                  ]
+                }
+              ],
+              "chargerStatus": false
+            }
+          ],
+          "amenities": []
+        },
+        {
+          "_id": "6573fe8d59f9e4bcccffd43d",
+          "locationId": 1702100531688,
+          "name": "ChargeMOD HQ EVCS Sreekaryam",
+          "parkingType": "ALONG MOTORWAY",
+          "email": "test2@chargemod.com",
+          "phone": 9943573543,
+          "image": "https://uat-kotta1.s3.ap-south-1.amazonaws.com/1702100590043-1698861563824-1695055069128-image.jpeg",
+          "geoLocation": {
+            "type": "Point",
+            "coordinates": [
+              74.4587435,
+              6.34773457
+            ]
+          },
+          "street1": "Sreekaryam",
+          "street2": "Venchavode",
+          "city": "Thambanur",
+          "state": "Kerala",
+          "country": "India",
+          "zip": "765234",
+          "status": "Active",
+          "isListed": true,
+          "connectionDetails": {
+            "totalSanctionLoad": "34",
+            "accountNumber": "47362543",
+            "isGreenEnergy": true,
+            "energySource": {
+              "source": "SOLAR",
+              "percentage": 98
+            },
+            "supplierType": "something1",
+            "_id": "6573fe8d59f9e4bcccffd43b"
+          },
+          "openingHours": {
+            "isTwentyFourHours": true,
+            "regularHours": [],
+            "_id": "6573fe8d59f9e4bcccffd43c"
+          },
+          "organizationId": "64941897fdb322dbf94ad2b8",
+          "projectId": "6494141957d29409895704d2",
+          "chargerDetails": [
+            {
+              "_id": "657402a259f9e4bcccffd605",
+              "identity": "testcharger2",
+              "locationId": 1702100531688,
+              "chargerName": "test charger 2",
+              "chargePointOem": "6574006059f9e4bcccffd4d2",
+              "chargePointDevice": "657401cb59f9e4bcccffd4e9",
+              "tarif": "64b63331f222b41d3f20816d",
+              "chargePointConnectionProtocol": "OCPP",
+              "evse": [
+                "1702101635947"
+              ],
+              "floorLevel": "testcharger2",
+              "delStatus": false,
+              "organizationId": "64941897fdb322dbf94ad2b8",
+              "projectId": "6494141957d29409895704d2",
+              "stationType": "DC",
+              "chargerType": "PUBLIC",
+              "chargerId": "testcharger2",
+              "qrCode": "testcharger2",
+              "maintenanceStatus": "no",
+              "fields": [],
+              "createdAt": "2023-12-09T06:01:06.455Z",
+              "updatedAt": "2023-12-09T06:01:06.455Z",
+              "__v": 0,
+              "evsesDetails": [
+                {
+                  "_id": "6574029959f9e4bcccffd5f8",
+                  "physicalReference": "Gun 1",
+                  "uid": "1702101635947",
+                  "maxOutputPower": 30,
+                  "capability": [
+                    "option1"
+                  ],
+                  "status": "Active",
+                  "connectorId": 1,
+                  "connector": [
+                    "65426e0a82c45c0f1c49288c"
+                  ],
+                  "organizationId": "64941897fdb322dbf94ad2b8",
+                  "projectId": "6494141957d29409895704d2",
+                  "createdAt": "2023-12-09T06:00:57.230Z",
+                  "updatedAt": "2023-12-09T06:00:57.230Z",
+                  "__v": 0,
+                  "connectorStatus": "Not Available",
+                  "errorCode": "Not Available",
+                  "Availability": "Not Available",
+                  "connectorDetails": [
+                    {
+                      "_id": "65426e0a82c45c0f1c49288c",
+                      "name": "CCS2",
+                      "standard": {
+                        "standardName": "DOMESTIC_A"
+                      },
+                      "format": {
+                        "formatName": "CABLE"
+                      },
+                      "powerType": {
+                        "powerType": "DC"
+                      },
+                      "cmsId": "4",
+                      "maxVoltage": 50,
+                      "maxAmperage": 90,
+                      "maxElectricPower": 80,
+                      "termsConditionUrl": "1",
+                      "connectorImage": "https://uat-kotta1.s3.ap-south-1.amazonaws.com/1698852362431-3ff79147-62af-49f9-9cae-485de4b014e1.png",
+                      "organizationId": "64b793030dd6bb39c1c3e270",
+                      "projectId": "6494141957d29409895704d2"
+                    }
+                  ]
+                }
+              ],
+              "chargerStatus": false
+            }
+          ],
+          "amenities": []
+        },
+        {
+          "_id": "6573fee659f9e4bcccffd4a7",
+          "locationId": 1702100633903,
+          "name": "test location3",
+          "parkingType": "ALONG MOTORWAY",
+          "email": "test3@chargemod.com",
+          "phone": 9943573543,
+          "image": "https://uat-kotta1.s3.ap-south-1.amazonaws.com/1702100675083-1698861563824-1695055069128-image.jpeg",
+          "geoLocation": {
+            "type": "Point",
+            "coordinates": [
+              74.4587435,
+              6.34773457
+            ]
+          },
+          "street1": "Sreekaryam",
+          "street2": "Venchavode",
+          "city": "Thambanur",
+          "state": "Kerala",
+          "country": "India",
+          "zip": "765234",
+          "status": "Active",
+          "isListed": true,
+          "connectionDetails": {
+            "totalSanctionLoad": "32",
+            "accountNumber": "47362543",
+            "isGreenEnergy": true,
+            "energySource": {
+              "source": "SOLAR",
+              "percentage": 23
+            },
+            "supplierType": "chargers",
+            "_id": "6573fee659f9e4bcccffd4a5"
+          },
+          "openingHours": {
+            "isTwentyFourHours": true,
+            "regularHours": [],
+            "_id": "6573fee659f9e4bcccffd4a6"
+          },
+          "organizationId": "64941897fdb322dbf94ad2b8",
+          "projectId": "6494141957d29409895704d2",
+          "chargerDetails": [
+            {
+              "_id": "6574022359f9e4bcccffd53d",
+              "identity": "testcharger1",
+              "locationId": 1702100633903,
+              "chargerName": "test charger 1",
+              "chargePointOem": "6574006059f9e4bcccffd4d2",
+              "chargePointDevice": "657401cb59f9e4bcccffd4e9",
+              "tarif": "64b63331f222b41d3f20816d",
+              "chargePointConnectionProtocol": "OCPP",
+              "evse": [
+                "1702101507841"
+              ],
+              "floorLevel": "0",
+              "delStatus": false,
+              "organizationId": "64941897fdb322dbf94ad2b8",
+              "projectId": "6494141957d29409895704d2",
+              "stationType": "AC",
+              "chargerType": "PUBLIC",
+              "chargerId": "testcharger1",
+              "qrCode": "testcharger1",
+              "maintenanceStatus": "no",
+              "fields": [],
+              "createdAt": "2023-12-09T05:58:59.297Z",
+              "updatedAt": "2023-12-09T05:58:59.297Z",
+              "__v": 0,
+              "evsesDetails": [
+                {
+                  "_id": "6574021659f9e4bcccffd530",
+                  "physicalReference": "Gun 1",
+                  "uid": "1702101507841",
+                  "maxOutputPower": 30,
+                  "capability": [
+                    "option3"
+                  ],
+                  "status": "Active",
+                  "connectorId": 1,
+                  "connector": [
+                    "65426e0a82c45c0f1c49288c"
+                  ],
+                  "organizationId": "64941897fdb322dbf94ad2b8",
+                  "projectId": "6494141957d29409895704d2",
+                  "createdAt": "2023-12-09T05:58:46.150Z",
+                  "updatedAt": "2023-12-09T05:58:46.150Z",
+                  "__v": 0,
+                  "connectorStatus": "Not Available",
+                  "errorCode": "Not Available",
+                  "Availability": "Not Available",
+                  "connectorDetails": [
+                    {
+                      "_id": "65426e0a82c45c0f1c49288c",
+                      "name": "CCS2",
+                      "standard": {
+                        "standardName": "DOMESTIC_A"
+                      },
+                      "format": {
+                        "formatName": "CABLE"
+                      },
+                      "powerType": {
+                        "powerType": "DC"
+                      },
+                      "cmsId": "4",
+                      "maxVoltage": 50,
+                      "maxAmperage": 90,
+                      "maxElectricPower": 80,
+                      "termsConditionUrl": "1",
+                      "connectorImage": "https://uat-kotta1.s3.ap-south-1.amazonaws.com/1698852362431-3ff79147-62af-49f9-9cae-485de4b014e1.png",
+                      "organizationId": "64b793030dd6bb39c1c3e270",
+                      "projectId": "6494141957d29409895704d2"
+                    }
+                  ]
+                }
+              ],
+              "chargerStatus": false
+            }
+          ],
+          "amenities": []
+        }
+      ],
+      "pagination": {
+        "totalRecord": 3,
+        "currentPage": 1,
+        "totalPages": 1,
+        "perPage": 10
+      }
+    }
+  }
